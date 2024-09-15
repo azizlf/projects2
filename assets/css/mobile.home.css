@@ -1,0 +1,483 @@
+@media (max-width:920px) {
+
+    .cover-header {
+
+        width: 100%;
+        height: 90%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border-bottom-left-radius: 11vw;
+        border-bottom-right-radius: 11vw;
+        overflow: hidden;
+
+    }
+
+    .cover-header .ctn .search-container {
+
+        width: 86%;
+        padding: 36% 1%;
+        border-radius: 2vw;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .cover-header .ctn .search-container .ctn-search {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        flex-direction: column;
+    }
+
+    .cover-header .ctn .search-container .ctn-search .hr {
+
+        display: none;
+
+    }
+
+    .cover-header .ctn .search-container .dropdown-search {
+
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3% 4%;
+        font-size: 5vw;
+        border: .1vw solid #e2e2e2;
+        border-radius: 1vw;
+        margin-bottom: 4%;
+
+    }
+
+    .cover-header .ctn .search-container input {
+        width: 90%;
+        font-size: 5vw;
+        border: .1vw solid #e2e2e2;
+        border-radius: 1vw;
+        padding: 5% 4%;
+        margin-bottom: 4%;
+
+    }
+
+    .cover-header .ctn .search-container .filter-btn {
+
+        width: 89%;
+        font-size: 5vw;
+        border: .1vw solid #e2e2e2;
+        border-radius: 1vw;
+        padding: 4%;
+        margin-bottom: 5%;
+
+    }
+
+    .cover-header .ctn .search-container button {
+        width: 97%;
+        padding: 4% 0;
+        border-radius: 1vw;
+        background-color: var(--theme-color);
+        color: white;
+        border: none;
+        font-size: 4.7vw;
+        cursor: pointer;
+        margin: 0;
+    }
+
+    .cover-header .ctn .title {
+
+        font-size: 8vw;
+        margin-top: 25%;
+
+    }
+
+    .cover-header .ctn .btns {
+
+        margin-bottom: 5%;
+
+    }
+
+
+    .cover-header .ctn .btns .btn {
+        padding: 3% 9%;
+        border-radius: 5vw;
+        border: .1vw solid white;
+        background-color: var(--theme-color);
+        color: white;
+        margin: 0 2%;
+        font-size: 5vw;
+        cursor: pointer;
+    }
+
+    .section {
+
+        margin-top: 5%;
+
+    }
+
+
+    .section .section-sbtitle {
+        width: 97%;
+        font-size: 4vw;
+    }
+
+    .section .section-title {
+        width: 95%;
+        font-size: 7vw;
+        display: block;
+        line-height: 9vw;
+        margin-bottom: 3%;
+    }
+
+    .section .section-title button {
+        padding: 3.4% 6%;
+        background-color: var(--theme-color);
+        color: white;
+        border: none;
+        margin-left: 1%;
+        border-radius: 1vw;
+        font-size: 3vw;
+    }
+
+    .flex-list {
+        flex-direction: column;
+    }
+
+    .flex-list .sc {
+        width: 95%;
+        padding: 54% 0;
+        margin-bottom: 5%;
+    }
+
+    .flex-list .sc .ctn .title {
+        font-size: 5vw;
+        padding: 5% 1%;
+        width: 86%;
+    }
+
+    .flex-list .sc .ctn button {
+        width: 47%;
+        padding: 2.5% 2%;
+        background-color: var(--theme-color);
+        color: white;
+        border: none;
+        border-radius: 1.5vw;
+        font-size: 5vw;
+        cursor: pointer;
+    }
+
+    .flex-list .sc .ctn .details .s {
+        width: 50%;
+        font-size: 3.8vw;
+        color: white;
+    }
+
+    .container-slider {
+        overflow: hidden;
+    }
+
+    .container-slider .slider-container {
+        overflow: visible;
+    }
+
+
+    .container-slider .btn-slide {
+
+        display: none !important;
+
+    }
+
+
+    .container-slider .slider-container .slide {
+        padding: 76% 0;
+    }
+
+    .container-slider .slider-container .slide .ctn {
+        background-color: white;
+    }
+
+    .container-slider.flex .slider-container .slide .ctn {
+        background-color: transparent;
+    }
+
+    .container-slider .slider-container .slide .ctn .cttn {
+        box-shadow: 0 0 2vw 0 #0000007c;
+    }
+
+    .container-slider .slider-container .slide .ctn .details-types .tt {
+        width: 48%;
+        margin-bottom: 3%;
+        border: 0.1vw solid white;
+        border-left: none;
+        color: white;
+        padding: 2%;
+        border-top-right-radius: 8vw;
+        border-bottom-right-radius: 8vw;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 4vw;
+    }
+
+    .container-slider .slider-container .slide .ctn .details .sc {
+        font-size: 2.8vw;
+    }
+
+    .container-slider .slider-container .slide .ctn .title {
+        font-size: 5vw;
+    }
+
+    .container-slider .slider-container .slide .ctn .description {
+        font-size: 4vw;
+    }
+
+    .container-slider .slider-container .slide .ctn .ft .price {
+        font-size: 4vw;
+    }
+
+    .container-slider .slider-container .slide .ctn .ft .icon {
+
+        font-size: 9vw;
+
+    }
+
+    .container-slider.flex .slider-container .slide {
+
+        margin: 0;
+
+    }
+
+
+    .container-slider .slider-container .slide .ctn .cttn .flex-ctn {
+
+        flex-direction: column;
+        padding: 0 7%;
+        height: 100%;
+
+    }
+
+    .container-slider .slider-container .slide .ctn .cttn .flex-ctn .details-desc {
+
+        width: 100%;
+        transform: translateX(0%);
+        padding: 9% 6%;
+
+    }
+
+    .container-slider .slider-container .slide .ctn .cttn .flex-ctn .img .im {
+        width: 100%;
+        height: 90%;
+    }
+
+    .container-slider .slider-container .slide .ctn .cttn .flex-ctn .img {
+
+        width: 100%;
+        height: 60%;
+
+    }
+
+    .container-slider .slider-container .slide .ctn .cttn .flex-ctn .details-desc .ttl {
+        font-size: 5vw;
+    }
+
+    .container-slider .slider-container .slide .ctn .cttn .flex-ctn .details-desc p {
+        font-size: 3vw;
+        line-height: 6vw;
+        margin-bottom: 3%;
+    }
+
+    .container-slider .slider-container .slide .ctn .cttn .flex-ctn .details-desc button {
+        padding: 3.5% 10%;
+        background-color: var(--theme-color);
+        color: white;
+        border: .1vw solid var(--theme-color);
+        cursor: pointer;
+        font-size: 4vw;
+        cursor: pointer;
+    }
+
+
+    .contact-section {
+        width: 100%;
+        padding: 13% 0;
+        background-color: #333;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .contact-section .details {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .contact-section .details .title {
+        font-size: 10vw;
+    }
+
+    .contact-section .details .item i {
+        font-size: 7vw;
+    }
+
+    .contact-section .details .item .tl {
+        font-size: 4vw;
+        margin-bottom: 8%;
+    }
+
+    .contact-section .details .item span {
+        font-size: 4vw;
+    }
+
+    .contact-section .form {
+        width: 92%;
+        text-align: center;
+        margin: 0 4%;
+        margin-top: 5%;
+    }
+
+    .contact-section .form .flex-input {
+        display: block;
+    }
+
+    .contact-section .form .flex-input input {
+        width: 100%;
+        padding: 5% 2%;
+        border: none;
+        background-color: transparent;
+        border-bottom: 0.1vw solid var(--theme-color);
+        font-size: 3.8vw;
+        color: white;
+        margin-bottom: 5%;
+    }
+
+    .contact-section .form textarea {
+        width: 100%;
+        padding: 2% 1%;
+        border: none;
+        background-color: transparent;
+        border-bottom: 0.1vw solid var(--theme-color);
+        font-size: 3.8vw;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        resize: vertical;
+    }
+
+    .contact-section .form button {
+        width: 76%;
+        padding: 3% 0;
+        font-size: 5vw;
+        cursor: pointer;
+        background-color: transparent;
+        border: .1vw solid #867364;
+        color: white;
+        margin: 4% 0;
+        transition: .2s;
+        margin-top: 10%;
+    }
+
+    .footer {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer .sc {
+        width: 90%;
+        margin-top: 10%;
+    }
+
+    .footer .sc .item {
+        font-size: 4vw;
+    }
+
+    .footer .sc .item .t {
+        width: 100%;
+    }
+
+    .footer .sc .item .r {
+
+        text-align: right;
+
+    }
+
+    .footer .sc .title {
+        font-size: 4vw;
+        margin-bottom: 2%;
+    }
+
+    .footer .sc .item i {
+        font-size: 6vw;
+    }
+
+    .ft-footer {
+        font-size: 3.5vw;
+        padding: 7% 0;
+    }
+
+    .footer .sc.menu .item {
+        font-size: 3.8vw;
+    }
+
+    .cover-header .ctn .search-container .list-down {
+        width: 88%;
+        background-color: white;
+        position: absolute;
+        bottom: 23%;
+        left: 5%;
+        border-radius: 2vw;
+        overflow: hidden;
+        padding: 1% 0.5%;
+        border: .1vw solid #d7d7d7;
+    }
+
+    .cover-header .ctn .search-container .list-down .item {
+        font-size: 5vw;
+        padding: 7% 8%;
+        cursor: pointer;
+        border-radius: 2vw;
+    }
+
+    .cover-header .ctn .search-container .filter-search {
+        width: 94%;
+        background-color: white;
+        position: absolute;
+        padding: 5%;
+        border: .1vw solid #d7d7d7;
+        border-radius: 3vw;
+        padding-top: 11%;
+        transform: translateY(10%);
+    }
+
+    .cover-header .ctn .search-container .filter-search .sc {
+        width: 100%;
+        float: left;
+        color: black;
+        font-size: 4vw;
+        margin-bottom: 6%;
+    }
+
+    .cover-header .ctn .search-container .filter-search .sc select {
+
+        font-size: 4.6vw;
+        border-radius: 1vw;
+        padding: 5% 2%;
+
+    }
+
+    .cover-header .ctn .search-container .filter-search .flex-sc {
+        display: block;
+    }
+
+    .cover-header .ctn .search-container .filter-search .closebtn {
+        position: absolute;
+        top: 3%;
+        right: 5%;
+        font-size: 6vw;
+        cursor: pointer;
+        color: #232831;
+    }
+
+}
